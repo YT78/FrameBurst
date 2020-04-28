@@ -1,0 +1,2 @@
+rootProject.name='FrameBurst'
+include ':app', ':jsoup-1.13.1'

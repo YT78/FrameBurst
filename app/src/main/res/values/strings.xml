@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">FrameBurst</string>
+    <string name="ragnaseriescover">RagnaSeriesCover</string>
+    <string name="blazbluecoverlogo">BlazblueCoverLogo</string>
+    <string name="solseriescover">SolSeriesCover</string>
+    <string name="guiltygearserieslogo">GuiltyGearSeriesLogo</string>
+    <string name="undernightserieslogo">undernightserieslogo</string>
+    <string name="persona_4_arena_series_logo">Persona 4 Arena Series Logo</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="character_profile">Character Profile</string>
+    <string name="frame_data_and_moveset">Frame Data and Moveset</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="calamitytriggerlogo">CalamityTriggerLogo</string>
+    <string name="csexlogo">csexlogo</string>
+    <string name="cpelogo">cpelogo</string>
+    <string name="uniellogo">uniellogo</string>
+    <string name="unistlogo">unistlogo</string>
+
+
+    <string name="p4aulogo">p4aulogo</string>
+
+    <string name="p4auyuBtn">p4aYuBtn</string>
+    <string name="yu">YU NARUKAMI</string>
+
+    <string name="p4auyosukeBtn">p4aYosukeBtn</string>
+    <string name="yosuke">YOSUKE HANAMURA</string>
+
+    <string name="p4auchieBtn">p4aChieBtn</string>
+    <string name="chie">CHIE SATONAKA</string>
+
+    <string name="p4auyukikoBtn">p4aYukikoBtn</string>
+    <string name="yukiko">YUKIKO AMAGI</string>
+
+    <string name="p4auteddieBtn">p4aTeddieBtn</string>
+    <string name="teddie">TEDDIE</string>
+
+    <string name="p4aukanjiBtn">p4aKanjiBtn</string>
+    <string name="kanji">KANJI TATSUMI</string>
+
+    <string name="p4aunaotoBtn">p4aNaotoBtn</string>
+    <string name="naoto_shirogane">NAOTO SHIROGANE</string>
+
+    <string name="p4auriseBtn">p4aRiseBtn</string>
+    <string name="rise">RISE KUJIKAWA</string>
+
+    <string name="p4auaigisBtn">p4aAigisBtn</string>
+    <string name="aigis">AIGIS</string>
+
+    <string name="p4auakihikoBtn">p4aAkihikoBtn</string>
+    <string name="akihiko">AKIHIKO SANADA</string>
+
+    <string name="p4aumitsuruBtn">p4aMitsuruBtn</string>
+    <string name="mitsuru">MITSURU KIRIJO</string>
+
+    <string name="p4auyukariBtn">p4aYukariBtn</string>
+    <string name="yukari">YUKARI TAKEBA</string>
+
+    <string name="p4aujunpeiBtn">p4aJunpeiBtn</string>
+    <string name="junpei">JUNPEI IORI</string>
+
+    <string name="p4aukenBtn">p4aKenBtn</string>
+    <string name="ken">KEN AMADA</string>
+
+    <string name="p4aulabrysBtn">p4alabrysBtn</string>
+    <string name="labrys">LABRYS</string>
+
+    <string name="p4aushadowlabrysBtn">p4aShadowLabrysBtn</string>
+    <string name="shadow_labrys">SHADOW LABRYS</string>
+
+    <string name="p4auelizabethBtn">p4aElizabethBtn</string>
+    <string name="elizabeth">ELIZABETH</string>
+
+    <string name="p4aumaragaretBtn">p4aMargaretBtn</string>
+    <string name="margaret">MARGARET</string>
+
+    <string name="p4aumarieBtn">p4aMarieBtn</string>
+    <string name="marie">MARIE</string>
+
+    <string name="p4auminazukiBtn">p4aMinazukiBtn</string>
+    <string name="minazuki">SHO \"MINAZUKI\"</string>
+
+    <string name="p4aushoBtn">p4aShoBtn</string>
+    <string name="sho">\"SHO\" MINAZUKI</string>
+
+    <string name="p4auadachiBtn">p4aAdachiBtn</string>
+    <string name="adachi">TOHRU ADACHI</string>
+
+
+
+    <string name="uniclrlogo">uniclrlogo</string>
+
+
+
+    <string name="taglogo">taglogo</string>
+
+
+
+    <string name="cflogo">cflogo</string>
+
+    <string name="bbcfragnaBtn">bbcfRagnaBtn</string>
+    <string name="ragna">RAGNA = THE = BLOODEDGE</string>
+
+    <string name="bbcfjinBtn">bbcfJinBtn</string>
+    <string name="jin">JIN = KISARAGI</string>
+
+    <string name="bbcfnoelBtn">bbcfNoelBtn</string>
+    <string name="noel">NOEL = VERMILLION</string>
+
+    <string name="bbcfRachelBtn">bbcfRachelBtn</string>
+    <string name="rachel">RACHEL = ALUCARD</string>
+
+    <string name="bbcftaoBtn">bbcfTaoBtn</string>
+    <string name="tao">TAOKAKA</string>
+
+    <string name="bbcftagerBtn">bbcfTagerBtn</string>
+    <string name="tager">IRON = TAGER</string>
+
+    <string name="bbcflitchiBtn">bbcfLitchiBtn</string>
+    <string name="litchi">LITCHI = FAYE = LING</string>
+
+    <string name="bbcfarakuneBtn">bbcfArakuneBtn</string>
+    <string name="arakune">ARAKUNE</string>
+
+    <string name="bbcfbangBtn">bbcfBangBtn</string>
+    <string name="bang">BANG = SHISHIGAMI</string>
+
+    <string name="bbcfcarlBtn">bbcfCarlBtn</string>
+    <string name="carl">CARL = CLOVER</string>
+
+    <string name="bbcfhakumenBtn">bbcfHakumenBtn</string>
+    <string name="hakumen">HAKUMEN</string>
+
+    <string name="bbcfnuBtn">bbcfNuBtn</string>
+    <string name="nu">NU = 13</string>
+
+    <string name="bbcftsubakiBtn">bbcfTsubakiBtn</string>
+    <string name="tsubaki">TSUBAKI = YAYAOI</string>
+
+    <string name="bbcfhazamaBtn">bbcfHazamaBtn</string>
+    <string name="hazama">HAZAMA</string>
+
+    <string name="bbcfmuBtn">bbcfMuBtn</string>
+    <string name="mu">MU = 12</string>
+
+    <string name="bbcfmakotoBtn">bbcfMakotoBtn</string>
+    <string name="makoto">MAKOTO = NANAYA</string>
+
+    <string name="bbcfvalkBtn">bbcfValkBtn</string>
+    <string name="valk">VALKENHAYN = R = HELLSING</string>
+
+    <string name="bbcfplatinumBtn">bbcfPlatinumBtn</string>
+    <string name="platinum">PLATINUM = THE = TRINITY</string>
+
+    <string name="bbcfreliusBtn">bbcfReliusBtn</string>
+    <string name="relius">RELIUS = CLOVER</string>
+
+    <string name="bbcfizayoiBtn">bbcfIzayoiBtn</string>
+    <string name="izayoi">IZAYOI</string>
+
+    <string name="bbcfamaneBtn">bbcfAmaneBtn</string>
+    <string name="amane">AMANE = NISHIKI</string>
+
+    <string name="bbcfbulletBtn">bbcfBulletBtn</string>
+    <string name="bullet">BULLET</string>
+
+    <string name="bbcfazraelBtn">bbcfAzraelBtn</string>
+    <string name="azrael">AZRAEL</string>
+
+    <string name="bbcfkaguraBtn">bbcfKaguraBtn</string>
+    <string name="kagura">KAGURA = MUTSUKI</string>
+
+    <string name="bbcfkokonoeBtn">bbcfKokonoeBtn</string>
+    <string name="kokonoe">KOKONOE</string>
+
+    <string name="bbcfterumiBtn">bbcfTerumiBtn</string>
+    <string name="terumi">TERUMI</string>
+
+    <string name="bbcfcelicaBtn">bbcfCelicaBtn</string>
+    <string name="celica">CELICA = A = MERCURY</string>
+
+    <string name="bbcflambdaBtn">bbcfLambdaBtn</string>
+    <string name="lambda">LAMBDA = 11</string>
+
+    <string name="bbcfHibikiBtn">bbcfHibikiBtn</string>
+    <string name="hibiki">HIBIKI = KOHAKU</string>
+
+    <string name="bbcfnineBtn">bbcfNineBtn</string>
+    <string name="nine">NINE = THE = PHANTOM</string>
+
+    <string name="bbcfnaotoBtn">bbcfNaotoBtn</string>
+    <string name="naotobb">NAOTO = KUROGANE</string>
+
+    <string name="bbcfizanamiBtn">bbcfIzanamiBtn</string>
+    <string name="izanami">IZANAMI</string>
+
+    <string name="bbcfsusanooBtn">bbcfSusanooBtn</string>
+    <string name="susanoo">SUSANO\'O</string>
+
+    <string name="bbcfesBtn">bbcfEsBtn</string>
+    <string name="es">ES</string>
+
+    <string name="bbcfmaiBtn">bbcfMaiBtn</string>
+    <string name="mai">MAI = NATSUME</string>
+
+    <string name="bbcfjubeiBtn">bbcfJubeiBtn</string>
+    <string name="jubei">JUBEI</string>
+
+
+    <string name="rev2logo">rev2logo</string>
+
+    <string name="rev2solBtn">rev2SolBtn</string>
+    <string name="sol_badguy">SOL BADGUY</string>
+
+    <string name="rev2kyBtn">rev2KyBtn</string>
+    <string name="ky_kiske">KY KISKE</string>
+
+    <string name="rev2mayBtn">rev2MayBtn</string>
+    <string name="may">MAY</string>
+
+    <string name="rev2milliaBtn">rev2MilliaBtn</string>
+    <string name="millia_rage">MILLIA RAGE</string>
+
+    <string name="rev2zatoBtn">rev2ZatoBtn</string>
+    <string name="zato_one">ZATO-ONE</string>
+
+    <string name="rev2potemkinBtn">rev2PotemkinBtn</string>
+    <string name="potemkin">POTEMKIN</string>
+
+    <string name="rev2chippBtn">rev2ChippBtn</string>
+    <string name="chipp_zanuff">CHIPP ZANUFF</string>
+
+    <string name="rev2faustBtn">rev2FaustBtn</string>
+    <string name="faust">FAUST</string>
+
+    <string name="rev2axlBtn">rev2AxlBtn</string>
+    <string name="axl_low">AXL LOW</string>
+
+    <string name="rev2venomBtn">rev2VenomBtn</string>
+    <string name="venom">VENOM</string>
+
+    <string name="rev2slayerBtn">rev2SlayerBtn</string>
+    <string name="slayer">SLAYER</string>
+
+    <string name="rev2i_noBtn">rev2I_NoBtn</string>
+    <string name="i_no">I-NO</string>
+
+    <string name="rev2bedmanBtn">rev2BedmanBtn</string>
+    <string name="bedman">BEDMAN</string>
+
+    <string name="rev2ramlethalBtn">rev2RamlethalBtn</string>
+    <string name="ramlethal_valentine">RAMLETHAL VALENTINE</string>
+
+    <string name="rev2sinBtn">rev2SinBtn</string>
+    <string name="sin_kiske">SIN KISKE</string>
+
+    <string name="rev2elpheltBtn">rev2ElpheltBtn</string>
+    <string name="elphelt_valentine">ELPHELT VALENTINE</string>
+
+    <string name="rev2leoBtn">rev2LeoBtn</string>
+    <string name="leo">LEO WHITEFANG</string>
+
+    <string name="rev2johnnyBtn">rev2JohnnyBtn</string>
+    <string name="johnny">JOHNNY</string>
+
+    <string name="rev2jackoBtn">rev2JackoBtn</string>
+    <string name="jacko_valentine">JACK-O\' VALENTINE</string>
+
+    <string name="rev2jamBtn">rev2JamBtn</string>
+    <string name="jam">JAM KURADOBERI</string>
+
+    <string name="rev2haeyhyunBtn">rev2HaeyhyunBtn</string>
+    <string name="kum_haeyhyun">KUM HAEYHYUN</string>
+
+    <string name="rev2ravenBtn">rev2RavenBtn</string>
+    <string name="raven">RAVEN</string>
+
+    <string name="rev2dizzyBtn">rev2DizzyBtn</string>
+    <string name="dizzy">DIZZY</string>
+
+    <string name="rev2baikenBtn">rev2BaikenBtn</string>
+    <string name="baiken">BAIKEN</string>
+
+    <string name="rev2answerBtn">rev2AnswerBtn</string>
+    <string name="answer">ANSWER</string>
+
+    <string name="acrlogo">acrlogo</string>
+
+    <string name="acrsolBtn">acrSolBtn</string>
+
+    <string name="acrkyBtn">acrKyBtn</string>
+
+    <string name="acrmayBtn">acrMayBtn</string>
+
+    <string name="acrmilliaBtn">acrMilliaBtn</string>
+
+    <string name="acreddieBtn">acrEddieBtn</string>
+    <string name="eddie">EDDIE</string>
+
+    <string name="acrpotemkinBtn">acrPotemkinBtn</string>
+
+    <string name="acrchippBtn">acrChippBtn</string>
+
+    <string name="acrfaustBtn">acrFaustBtn</string>
+
+    <string name="acraxlBtn">acrAxlBtn</string>
+
+    <string name="acrvenomBtn">acrVenomBtn</string>
+
+    <string name="acrslayerBtn">acrSlayerBtn</string>
+
+    <string name="acri_noBtn">acrI_NoBtn</string>
+
+    <string name="acrrobokyBtn">acrRoboKyBtn</string>
+    <string name="roboky">ROBO-KY</string>
+
+    <string name="acrbridgetBtn">acrBridgetBtn</string>
+    <string name="bridget">BRIDGET</string>
+
+    <string name="acranjiBtn">acrAnjiBtn</string>
+    <string name="anji">ANJI MITO</string>
+
+    <string name="acrzappaBtn">acrZappaBtn</string>
+    <string name="zappa">ZAPPA</string>
+
+    <string name="acrabaBtn">acrABABtn</string>
+    <string name="aba">A.B.A</string>
+
+    <string name="acrjohnnyBtn">acrJohnnyBtn</string>
+
+    <string name="acroredersolBtn">acrOrderSolBtn</string>
+    <string name="ordersol">ORDER SOL</string>
+
+    <string name="acrjamBtn">acrJamBtn</string>
+
+    <string name="acrtestamentBtn">acrTestamentBtn</string>
+    <string name="testament">TESTAMENT</string>
+
+    <string name="acrkliffBtn">acrKliffBtn</string>
+    <string name="kliff">KLIFF UNDERSN</string>
+
+    <string name="acrdizzyBtn">acrDizzyBtn</string>
+
+    <string name="acrbaikenBtn">acrBaikenBtn</string>
+
+    <string name="acrjusticeBtn">acrJusticeBtn</string>
+    <string name="justice">JUSTICE</string>
+
+
+
+</resources>
