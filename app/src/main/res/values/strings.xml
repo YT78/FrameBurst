@@ -18,15 +18,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-
     <string name="home_second">Home Second</string>
-    <string name="calamitytriggerlogo">CalamityTriggerLogo</string>
-    <string name="csexlogo">csexlogo</string>
+
+    <string name="ctlogo">ctlogo</string>
+    <string name="cselogo">cselogo</string>
     <string name="cpelogo">cpelogo</string>
-    <string name="uniellogo">uniellogo</string>
-    <string name="unistlogo">unistlogo</string>
 
 
+    <!--PERSONA 4 ARENA SERIES -->
     <string name="p4aulogo">p4aulogo</string>
 
     <string name="p4auyuBtn">p4aYuBtn</string>
@@ -96,15 +95,85 @@
     <string name="adachi">TOHRU ADACHI</string>
 
 
-
+    <!--UNDER NIGHT SERIES -->
+    <string name="uniellogo">uniellogo</string>
+    <string name="unistlogo">unistlogo</string>
     <string name="uniclrlogo">uniclrlogo</string>
 
+    <string name="unihydeBtn">uniHydeBtn</string>
+    <string name="hyde">HYDE</string>
+
+    <string name="unilinneBtn">uniLinneBtn</string>
+    <string name="linne">LINNE</string>
+
+    <string name="uniwaldsteinBtn">uniWaldsteinBtn</string>
+    <string name="waldstein">WALDSTEIN</string>
+
+    <string name="unicarmineBtn">uniCarmineBtn</string>
+    <string name="carmine">CARMINE</string>
+
+    <string name="uniorieBtn">uniOrieBtn</string>
+    <string name="orie">ORIE</string>
+
+    <string name="unigordeauBtn">uniGordeauBtn</string>
+    <string name="gordeau">GORDEAU</string>
+
+    <string name="unimerkavaBtn">uniMerkavaBtn</string>
+    <string name="merkava">MERKAVA</string>
+
+    <string name="univatistaBtn">uniVatistaBtn</string>
+    <string name="vatista">VATISTA</string>
+
+    <string name="unisethBtn">uniSethBtn</string>
+    <string name="seth">SETH</string>
+
+    <string name="uniyuzurihaBtn">uniYuzurihaBtn</string>
+    <string name="yuzuriha">YUZURIHA</string>
+
+    <string name="unihildaBtn">uniHildaBtn</string>
+    <string name="hilda">HILDA</string>
+
+    <string name="unichaosBtn">uniChaosBtn</string>
+    <string name="chaos">CHAOS</string>
+
+    <string name="uninanaseBtn">uniNanaseBtn</string>
+    <string name="nanase">NANASE</string>
+
+    <string name="unibyakuyaBtn">uniByakuyaBtn</string>
+    <string name="byakuya">BYAKUYA</string>
+
+    <string name="uniphononBtn">uniPhononBtn</string>
+    <string name="phonon">PHONON</string>
+
+    <string name="unimikaBtn">uniMikaBtn</string>
+    <string name="mika">MIKA</string>
+
+    <string name="uniwagnerBtn">uniWagnerBtn</string>
+    <string name="wagner">WAGNER</string>
+
+    <string name="uniEnkiduBtn">uniEnkiduBtn</string>
+    <string name="enkidu">ENKIDU</string>
+
+    <string name="unilondrekiaBtn">uniLondrekiaBtn</string>
+    <string name="londrekia">LONDREKIA</string>
+
+    <string name="unieltnumBtn">uniEltnumBtn</string>
+    <string name="eltnum">ELTNUM</string>
+
+    <string name="uniakatsukiBtn">uniAkatsukiBtn</string>
+    <string name="akatsuki">AKATSUKI</string>
 
 
+
+    <!--BLAZBLUE CROSS TAG BATTLE -->
     <string name="taglogo">taglogo</string>
 
 
 
+
+
+
+    <!--BLAZBLUE SERIES -->
     <string name="cflogo">cflogo</string>
 
     <string name="bbcfragnaBtn">bbcfRagnaBtn</string>
@@ -216,6 +285,7 @@
     <string name="jubei">JUBEI</string>
 
 
+    <!--GUILTY GEAR SERIES -->
     <string name="rev2logo">rev2logo</string>
 
     <string name="rev2solBtn">rev2SolBtn</string>
@@ -293,6 +363,7 @@
     <string name="rev2answerBtn">rev2AnswerBtn</string>
     <string name="answer">ANSWER</string>
 
+    <!--GGXXAC+R -->
     <string name="acrlogo">acrlogo</string>
 
     <string name="acrsolBtn">acrSolBtn</string>
