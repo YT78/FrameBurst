@@ -25,15 +25,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton TagBtn = findViewById(R.id.TagBtn);
-        TagBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), tagCharactersActivity.class);
-
-                startActivity(startIntent);
-            }
-        });
+        //For Future Update (Tag Button)
+//        ImageButton TagBtn = findViewById(R.id.TagBtn);
+//        TagBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent startIntent = new Intent(getApplicationContext(), tagCharactersActivity.class);
+//
+//               startActivity(startIntent);
+//            }
+//        });
 
         ImageButton GuiltyGearSeriesBtn = findViewById(R.id.GuiltyGearSeriesBtn);
         GuiltyGearSeriesBtn.setOnClickListener(new View.OnClickListener() {

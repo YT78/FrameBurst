@@ -183,7 +183,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/red"
                     android:gravity="center"
-                    android:text="@string/zato_one"
+                    android:text="@string/eddie"
                     android:textColor="#FFFFFF"
                     android:textSize="50sp"
                     app:layout_constraintBottom_toBottomOf="parent"

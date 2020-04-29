@@ -46,6 +46,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+<!-- For Future Update (Tag)
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout6"
                 android:layout_width="match_parent"
@@ -69,6 +70,7 @@
                     app:srcCompat="@drawable/bbtaglogo_img" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+-->
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout2"

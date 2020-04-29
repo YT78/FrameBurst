@@ -1082,7 +1082,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
-                    android:id="@+id/bbcfSusuanooBtn"
+                    android:id="@+id/bbcfSusanooBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="200dp"
                     android:background="#3D93D1"
