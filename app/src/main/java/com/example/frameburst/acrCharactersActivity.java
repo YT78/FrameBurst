@@ -5,7 +5,31 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.example.frameburst.acr.acrABAActivity;
+import com.example.frameburst.acr.acrAnjiActivity;
+import com.example.frameburst.acr.acrAxlActivity;
+import com.example.frameburst.acr.acrBaikenActivity;
+import com.example.frameburst.acr.acrBridgetActivity;
+import com.example.frameburst.acr.acrChippActivity;
+import com.example.frameburst.acr.acrDizzyActivity;
+import com.example.frameburst.acr.acrEddieActivity;
+import com.example.frameburst.acr.acrFaustActivity;
+import com.example.frameburst.acr.acrINoActivity;
+import com.example.frameburst.acr.acrJamActivity;
+import com.example.frameburst.acr.acrJohnnyActivity;
+import com.example.frameburst.acr.acrJusticeActivity;
+import com.example.frameburst.acr.acrKliffActivity;
+import com.example.frameburst.acr.acrKyActivity;
+import com.example.frameburst.acr.acrMayActivity;
+import com.example.frameburst.acr.acrMilliaActivity;
+import com.example.frameburst.acr.acrOrderSolActivity;
+import com.example.frameburst.acr.acrPotemkinActivity;
+import com.example.frameburst.acr.acrRoboKyActivity;
+import com.example.frameburst.acr.acrSlayerActivity;
 import com.example.frameburst.acr.acrSolActivity;
+import com.example.frameburst.acr.acrTestamentActivity;
+import com.example.frameburst.acr.acrVenomActivity;
+import com.example.frameburst.acr.acrZappaActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
