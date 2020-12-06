@@ -5,6 +5,12 @@ This Java based Android app is a port of my old IOS app that I made in XCode/Swi
 # How to Install
 Simply open this project in Android Studio as a new project and run the app with developer settings and USB debugging turned on in your phone's settings or download the APK and install it to your android device
 
-# Screenshots
+# Screenshots (1.0)
   ![#1](/images/1.png)
   ![#2](/images/2.png)
+  
+
+# Screenshots (2.0)
+  ![#3](/images/3.png)
+  ![#4](/images/4.png)
+  ![#5](/images/5.png)
