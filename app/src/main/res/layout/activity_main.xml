@@ -7,46 +7,81 @@
     tools:context=".MainActivity">
 
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:paddingBottom="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/linearLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/BlazblueSeriesBtn"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:background="#3D93D1"
+                android:contentDescription="@string/blazbluecoverlogo"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/UNIELSeriesBtn"
+                app:layout_constraintEnd_toStartOf="@+id/GuiltyGearSeriesBtn"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/bbcf_img" />
 
-                <ImageButton
-                    android:id="@+id/BlazblueSeriesBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="200dp"
-                    android:adjustViewBounds="true"
-                    android:background="#3D93D1"
-                    android:contentDescription="@string/blazbluecoverlogo"
-                    android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:srcCompat="@drawable/bbcf_img" />
+            <ImageButton
+                android:id="@+id/GuiltyGearSeriesBtn"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:background="#330606"
+                android:contentDescription="@string/guiltygearserieslogo"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toTopOf="@+id/P4ASeriesBtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/BlazblueSeriesBtn"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/guiltygearlogo_img" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageButton
+                android:id="@+id/UNIELSeriesBtn"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:background="#47189C"
+                android:contentDescription="@string/undernightserieslogo"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/P4ASeriesBtn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BlazblueSeriesBtn"
+                app:srcCompat="@drawable/uniclrlogo_img" />
 
-<!-- For Future Update (Tag)
+            <ImageButton
+                android:id="@+id/P4ASeriesBtn"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:background="#E8E800"
+                android:contentDescription="@string/persona_4_arena_series_logo"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/UNIELSeriesBtn"
+                app:layout_constraintTop_toBottomOf="@id/GuiltyGearSeriesBtn"
+                app:srcCompat="@drawable/persona4arenaultimaxlogo_img" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- For Future Update (Tag)
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout6"
                 android:layout_width="match_parent"
@@ -70,76 +105,8 @@
                     app:srcCompat="@drawable/bbtaglogo_img" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
--->
+    -->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/linearLayout2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:id="@+id/GuiltyGearSeriesBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="200dp"
-                    android:adjustViewBounds="true"
-                    android:background="#330606"
-                    android:contentDescription="@string/guiltygearserieslogo"
-                    android:cropToPadding="false"
-                    android:scaleType="fitCenter"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0"
-                    app:srcCompat="@drawable/guiltygearlogo_img" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/linearLayout3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:id="@+id/UNIELSeriesBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="200dp"
-                    android:adjustViewBounds="true"
-                    android:background="#47189C"
-                    android:contentDescription="@string/undernightserieslogo"
-                    android:scaleType="fitCenter"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0"
-                    app:srcCompat="@drawable/uniclrlogo_img" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/linearLayout4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:id="@+id/P4ASeriesBtn"
-                    android:layout_width="0dp"
-                    android:layout_height="200dp"
-                    android:adjustViewBounds="true"
-                    android:background="#E8E800"
-                    android:contentDescription="@string/persona_4_arena_series_logo"
-                    android:scaleType="fitCenter"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0"
-                    app:srcCompat="@drawable/persona4arenaultimaxlogo_img" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,11 +23,11 @@ public class acrSlayerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_acr_slayer);
 
 
-        webview = (WebView) findViewById(R.id.webview);
+        webview = findViewById(R.id.webview);
         webview.setWebViewClient(new WebViewClient());
         webview.loadUrl("https://guilty-gear.fandom.com/wiki/Slayer");
 
-        webview2 = (WebView) findViewById(R.id.webview2);
+        webview2 = findViewById(R.id.webview2);
         webview2.setWebViewClient(new WebViewClient());
         webview2.loadUrl("https://www.dustloop.com/wiki/index.php?title=GGACR/Slayer");
 

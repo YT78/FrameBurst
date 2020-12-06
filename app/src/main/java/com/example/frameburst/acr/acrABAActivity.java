@@ -13,33 +13,25 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class acrABAActivity extends AppCompatActivity {
-    private WebView webview, webview2;
-    private ConstraintLayout profile, framedata;
-
+    private WebView webview;
+    //private String url;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acr_aba);
-
-
-        webview = (WebView) findViewById(R.id.webview);
+        webview = findViewById(R.id.webview);
         webview.setWebViewClient(new WebViewClient());
-        webview.loadUrl("https://guilty-gear.fandom.com/wiki/A.B.A");
-
-        webview2 = (WebView) findViewById(R.id.webview2);
-        webview2.setWebViewClient(new WebViewClient());
-        webview2.loadUrl("https://www.dustloop.com/wiki/index.php?title=GGACR/A.B.A");
-
-        final ConstraintLayout profile = findViewById(R.id.layout2);
-        final ConstraintLayout framedata = findViewById(R.id.layout3);
+        webview.loadUrl("https://guilty-gear.fandom.com/wiki/A.B.A/Commands");
 
         Button button1 = findViewById(R.id.button);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                profile.setVisibility(View.GONE);
-                framedata.setVisibility(View.VISIBLE);
+                webview.clearView();
+                webview.clearHistory();
+                webview.loadUrl("https://guilty-gear.fandom.com/wiki/A.B.A");
+
             }
         });
 
@@ -47,8 +39,9 @@ public class acrABAActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                profile.setVisibility(View.VISIBLE);
-                framedata.setVisibility(View.GONE);
+                webview.clearView();
+                webview.clearHistory();
+                webview.loadUrl("https://guilty-gear.fandom.com/wiki/A.B.A/Commands");
             }
         });
 
@@ -56,12 +49,11 @@ public class acrABAActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
     }
 
-
     @Override
     public void onBackPressed() {
-        if (webview.canGoBack()) {
+        if (webview.canGoBack()){
             webview.goBack();
-        } else {
+        }else{
             super.onBackPressed();
         }
 

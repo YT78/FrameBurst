@@ -18,7 +18,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfRagnaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfRagnaActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfRagnaActivity.class);
 
                 startActivity(startIntent);
             }
@@ -28,7 +28,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfJinBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfJinActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfJinActivity.class);
 
                 startActivity(startIntent);
             }
@@ -38,7 +38,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfNoelBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfNoelActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfNoelActivity.class);
 
                 startActivity(startIntent);
             }
@@ -48,7 +48,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfRachelBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfRachelActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfRachelActivity.class);
 
                 startActivity(startIntent);
             }
@@ -58,7 +58,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfTaoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfTaoActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfTaoActivity.class);
 
                 startActivity(startIntent);
             }
@@ -68,7 +68,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfTagerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfTagerActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfTagerActivity.class);
 
                 startActivity(startIntent);
             }
@@ -78,7 +78,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfLitchiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfLitchiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfLitchiActivity.class);
 
                 startActivity(startIntent);
             }
@@ -88,7 +88,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfArakuneBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfArakuneActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfArakuneActivity.class);
 
                 startActivity(startIntent);
             }
@@ -98,7 +98,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfBangBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfBangActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfBangActivity.class);
 
                 startActivity(startIntent);
             }
@@ -108,7 +108,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfCarlBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfCarlActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfCarlActivity.class);
 
                 startActivity(startIntent);
             }
@@ -118,7 +118,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfHakumenBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfHakumenActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfHakumenActivity.class);
 
                 startActivity(startIntent);
             }
@@ -128,7 +128,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfNuBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfNuActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfNuActivity.class);
 
                 startActivity(startIntent);
             }
@@ -138,7 +138,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfTsubakiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfTsubakiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfTsubakiActivity.class);
 
                 startActivity(startIntent);
             }
@@ -148,7 +148,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfHazamaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfHazamaActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfHazamaActivity.class);
 
                 startActivity(startIntent);
             }
@@ -158,7 +158,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfMuBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfMuActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfMuActivity.class);
 
                 startActivity(startIntent);
             }
@@ -168,7 +168,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfMakotoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfMakotoActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfMakotoActivity.class);
 
                 startActivity(startIntent);
             }
@@ -178,7 +178,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfValkBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfValkActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfValkActivity.class);
 
                 startActivity(startIntent);
             }
@@ -188,7 +188,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfPlatinumBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfPlatinumActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfPlatinumActivity.class);
 
                 startActivity(startIntent);
             }
@@ -198,7 +198,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfReliusBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfReliusActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfReliusActivity.class);
 
                 startActivity(startIntent);
             }
@@ -208,7 +208,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfIzayoiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfIzayoiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfIzayoiActivity.class);
 
                 startActivity(startIntent);
             }
@@ -218,7 +218,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfAmaneBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfAmaneActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfAmaneActivity.class);
 
                 startActivity(startIntent);
             }
@@ -228,7 +228,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfBulletBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfBulletActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfBulletActivity.class);
 
                 startActivity(startIntent);
             }
@@ -238,7 +238,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfAzraelBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfAzraelActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfAzraelActivity.class);
 
                 startActivity(startIntent);
             }
@@ -248,7 +248,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfKaguraBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfKaguraActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfKaguraActivity.class);
 
                 startActivity(startIntent);
             }
@@ -258,7 +258,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfTerumiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfTerumiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfTerumiActivity.class);
 
                 startActivity(startIntent);
             }
@@ -268,7 +268,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfCelicaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfCelicaActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfCelicaActivity.class);
 
                 startActivity(startIntent);
             }
@@ -278,7 +278,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfLambdaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfLambdaActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfLambdaActivity.class);
 
                 startActivity(startIntent);
             }
@@ -288,7 +288,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfHibikiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfHibikiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfHibikiActivity.class);
 
                 startActivity(startIntent);
             }
@@ -298,7 +298,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfNineBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfNineActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfNineActivity.class);
 
                 startActivity(startIntent);
             }
@@ -308,7 +308,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfNaotoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfNaotoActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfNaotoActivity.class);
 
                 startActivity(startIntent);
             }
@@ -318,7 +318,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfIzanamiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfIzanamiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfIzanamiActivity.class);
 
                 startActivity(startIntent);
             }
@@ -328,7 +328,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfSusanooBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfSusanooActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfSusanooActivity.class);
 
                 startActivity(startIntent);
             }
@@ -338,7 +338,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfEsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfEsActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfEsActivity.class);
 
                 startActivity(startIntent);
             }
@@ -348,7 +348,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfMaiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfMaiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfMaiActivity.class);
 
                 startActivity(startIntent);
             }
@@ -358,7 +358,7 @@ public class bbcfCharactersActivity extends AppCompatActivity {
         bbcfJubeiBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcfJubeiActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), com.example.frameburst.bbcf.bbcfJubeiActivity.class);
 
                 startActivity(startIntent);
             }

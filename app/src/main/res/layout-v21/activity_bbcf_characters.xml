@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bbcfCharactersActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:alignmentMode="alignMargins"
+        android:columnCount="6"
+        android:rowCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+
+            android:id="@+id/bbcfRagnaBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfragnaBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ragna_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfJinBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfjinBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/jin_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfNoelBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfnoelBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/noel_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfRachelBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfRachelBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/rachel_img"
+            tools:ignore="GridLayout" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfTaoBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcftaoBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/tao_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfTagerBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcftagerBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/tager_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfLitchiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcflitchiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/litchi_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfArakuneBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfarakuneBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/arakune_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfBangBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfbangBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/bang_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfCarlBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfcarlBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/carl_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfHakumenBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfhakumenBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hakumen_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfNuBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfnuBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/nu_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfTsubakiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcftsubakiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/tsubaki_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfHazamaBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfhazamaBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hazama_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfMuBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfmuBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/mu_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfMakotoBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfmakotoBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/makoto_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfValkBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfvalkBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/valk_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfPlatinumBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfplatinumBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/plat_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfReliusBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfreliusBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/relius_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfIzayoiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfizayoiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/izayoi_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfAmaneBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfamaneBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/amane_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfBulletBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfbulletBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/bullet_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfAzraelBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfazraelBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/azrael_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfKaguraBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfkaguraBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/kagura_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfTerumiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfterumiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/terumi_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfCelicaBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfcelicaBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/celica_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfKokonoeBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfkokonoeBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/kokonoe_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfLambdaBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcflambdaBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/lambda_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfHibikiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfHibikiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hibiki_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfNineBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfnineBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/nine_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfNaotoBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfnaotoBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/naoto_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfIzanamiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfizanamiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/izanami_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfSusanooBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfsusanooBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/susanoo_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfEsBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfesBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/es_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfMaiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfmaiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/mai_img" />
+
+        <ImageButton
+
+            android:id="@+id/bbcfJubeiBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/bbcfjubeiBtn"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/jubei_img" />
+
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

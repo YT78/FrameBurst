@@ -13,7 +13,7 @@ public class bbcfAzraelActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bbcf_azrael);
-        webview = (WebView) findViewById(R.id.webview);
+        webview = findViewById(R.id.webview);
         webview.setWebViewClient(new WebViewClient());
         webview.loadUrl("https://blazblue.fandom.com/wiki/Azrael");
 
